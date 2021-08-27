@@ -111,7 +111,7 @@ function mainWrapper() {
 
   function updateUI() {
     stanAplikacji.$aktualnaStrona.innerHTML = stanAplikacji.page;
- 
+  }
 
   async function pobierzPostaci() {
     // let params = `?page=${stanAplikacji.page}`;
