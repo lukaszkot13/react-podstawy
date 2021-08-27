@@ -111,8 +111,6 @@ function mainWrapper() {
 
   function updateUI() {
     stanAplikacji.$aktualnaStrona.innerHTML = stanAplikacji.page;
-    const locations = document.getElementById("locations");
-    locations.innerHTML = xxx;
   }
 
   async function pobierzPostaci() {
